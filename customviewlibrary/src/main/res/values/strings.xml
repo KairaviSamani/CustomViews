@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomViewLibrary</string>
+    <string name="textview1">TextView1</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':app', ':customviewlibrary'
+rootProject.name='CustomLibrary'
