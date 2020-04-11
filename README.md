@@ -13,3 +13,15 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 	
 	implementation 'com.github.KairaviSamani:CustomLibrary:1.0.0'
+
+How to use?
+
+	<com.example.customviewlibrary.CustomTextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="Hello World!!"
+        	app:custom_borderWidth="1dp"
+        	app:custom_borderColor="@android:color/holo_blue_dark"
+        	app:custom_radius="5dp"
+		app:custom_background="@android:color/holo_blue_light"/>
+
